@@ -15,8 +15,14 @@ let posts = [
       res.json(JSON.stringify(posts));
   });
 
-  app.post("/new", (req, res) => {
+  app.post("/new", express.json(), (req, res) => {
+      let id = generateID();
+      let title = req.body.title;
+      let description = req.body.description;
 
+      posts.push({id, title, description});
+
+      res.send("Post Adicionado");
   })
 
 
@@ -26,3 +32,7 @@ let posts = [
 app.listen(PORT, () => {
   console.log("Server Online on port", PORT)
 });
+
+function generateID() {
+  return Math.random().toString(36).substring(2,9);
+}
