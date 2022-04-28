@@ -1,5 +1,5 @@
 # Meu mural
-<p> Este projeto é foi criado a partir de um exercício do curso Programador BR, o intuito do projeto é aplicar os conhecimentos sobre API REST.
+<p> Este projeto foi criado a partir de um exercício do curso Programador BR, o intuito do projeto é aplicar os conhecimentos sobre API REST.
 Ao longo deste projeto resolvi implementar a função de excluir um post.
 </p>
 
