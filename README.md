@@ -18,5 +18,5 @@ Ao longo deste projeto resolvi implementar a função de excluir um post.
 
 <ul>
 	<li> Criar um novo post </li>
-	<li> Exclui o post </li>
+	<li> Excluir o post </li>
 </ul>
