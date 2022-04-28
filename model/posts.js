@@ -2,9 +2,9 @@ module.exports = {
 
    posts: [
     {
-      id:"a",
-      title:"teste do Mural",
-      description:"descrição teste"
+      id:"aaaaaaa",
+      title:"Olá, bem-vindo",
+      description:"Sejam bem-vindos(as), eu sou Pedro Nascimento e você está no meu projeto em Node.Js. Visite meu Linkedin <a href='https://www.linkedin.com/in/pdrhsn/'>Click aqui</a>"
     },
   ],
   getAll(){
@@ -16,7 +16,7 @@ module.exports = {
   },
 
   deletePost(id){
-    this.posts.splice(id, 1)
+    this.posts = this.posts.filter( item =>item.id != id)
   }
 }
 
